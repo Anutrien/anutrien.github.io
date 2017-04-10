@@ -13,6 +13,9 @@ git commit -am "Create new bundle"
 cp -r ./build/ $TMP_DIR/build
 BUILD_FILES=`ls ./build`
 
+# Clean up develop branch
+rm -rf ./build
+
 # Wipe out current site
 git checkout master
 git rm -rf .
