@@ -1,19 +1,24 @@
 #about-us
-  background-color #72665d
+  background-color #ECECEC
   full-background($bg-image-about-us)
 
   article
     padding-top 100px
     text-align center
 
+    @media (max-width: medium-screen)
+      padding 0
+
   p
-    text-align justify
+    text-align left
     font-weight 300
     padding 0 25%
     letter-spacing 1px
 
     @media (max-width: medium-screen)
-      padding 0
+      padding 0 20px
+      font-size 14px
+
   a
     padding-top 40px
     text-align center
