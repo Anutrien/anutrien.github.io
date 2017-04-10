@@ -18,7 +18,7 @@ git checkout master
 git rm -rf .
 
 # Move new bundle to master
-mv $TMP_DIR/build/** ./ -f
+mv -f $TMP_DIR/build/** ./
 
 # Create CNAME
 echo "anutrien.com.br" > CNAME
